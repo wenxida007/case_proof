@@ -5,7 +5,7 @@
 @File: tf2_cnn网络大家.py
 @CreateTime: 2020/7/5 10:55
 '''
-
+# ADD a test line
 class CNN(tf.keras.Model):
     def __init__(self):
         super().__init__()
