@@ -10,6 +10,13 @@
 1. 如果开始大于等于结束，则退出
 2. alist需要一直全部传入，保证整体修改
 3. 建立mid_num 
+
+细节步骤：
+1.建立一个mid指针，还有左右各一个指针。
+2.找到左边第一数字赋值给mid指针，将小于他的放左边，大于他的放右边
+3.循环条件，left<right，左右每次往中心移动一格
+4.最后需要吧mid指针还原给 left
+3.递归
 '''
 def quick_sort(alist,start,end):
     if start >= end: return

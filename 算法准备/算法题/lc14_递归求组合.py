@@ -36,5 +36,4 @@ def letterCombinations(digits):
     return output
 
 if __name__ == '__main__':
-    # OK
     print(letterCombinations('2345'))
