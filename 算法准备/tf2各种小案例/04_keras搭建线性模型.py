@@ -6,8 +6,11 @@
 @CreateTime: 2020/7/21 15:44
 '''
 
+
+
 import tensorflow as tf
 import numpy as np
+
 # 1、定义一个线性回归模型
 class Linear(tf.keras.Model):
     """自定义线性回归类
